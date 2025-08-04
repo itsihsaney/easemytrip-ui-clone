@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex ;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: white;
+    border-bottom: 3px solid #3198ff;
+    width: 100vw;
+    height: 74.5px;
+    
+    
+}
+
+
+
+.logo{
+    display: flex;
+    height: 64.5px;
+    width: 170px;
+    background-color:transparent;
+    position: relative;
+    left: 320px;
+    padding: 4px;
+}
+
+.navicons{
+    display: flex;
+    justify-content: space-between;
+    width:681.516px;
+    height: 58.5px;
+    background-color: white;
+    
+}
+.navicons button{
+    border: none;
+    height: 58.5px;
+    position: relative;
+    top: 5px;
+    right: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navicons button :not(.navitemactive)
+{background-color: transparent;}
+
+.navicons button:hover{
+    background-color: #EAF4FE;
+    border-radius: 5px;
+    color: #0066cc;
+    transition: 0.3s ease;
+}
+
+
+.navitemactive:focus{
+    color: #0066cc;
+    background-color: #EAF4FE;
+    z-index: 2;
+}
+
+.flights{
+    color: black;
+}
+
+.hotels{
+    color: black;
+}
+
+.fh{
+    color: black;
+}
+
+.trains{
+    color: black;
+    
+}
+
+.bus{
+    color: black;
+    
+}
+
+.holidays{
+    color: black;
+    
+}
+
+.cabs{
+    color: black;
+    
+}
+
+.activities{
+    color: black;
+    
+}
+
+.visa{
+    color: black;
+    
+}
+
+.more{
+    color: black;
+    
+}
+
+.fa-plane-up{
+    font-size:20px;
+}
+
+
+.fa-hotel{
+    font-size:20px;
+}
+
+.fa-city{
+    font-size:20px;
+}
+
+.fa-train{
+    font-size:20px;
+}
+
+.fa-bus{
+    font-size:20px;
+}
+
+.fa-umbrella-beach{
+    font-size:20px;
+}
+
+
+.fa-taxi{
+    font-size:20px;
+}
+
+.fa-passport{
+    font-size:20px;
+}
+
+
+.fa-ellipsis-h{
+    font-size:20px;
+}
+
+.fa-parachute-box{
+    font-size:20px;
+}
+
+
+.rightnav{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+    width: 263px;
+    height: 49.5px;
+    background-color: transparent;
+    position: relative;
+    right: 300px;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.flag{
+    position:relative;
+    left: 20px;
+
+}
+
+.rightnav button{
+
+    background-color: #1899ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size:  13px;
+    font-weight: bold;
+    
+}
+
+
+.bluebox{
+    display: flex;
+    background: linear-gradient(to right, #1e90f0, #5bd4f7);
+    height: 355px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+.tripoptions {
+display: flex;
+justify-content: center;
+  gap: 15px;
+  background-color:transparent;
+  color: white;
+  font-weight: bold;
+  padding: 15px 0;
+  width: 1170px;
+  position: absolute;
+  bottom: 270px;
+  z-index: 10;
+}
+
+
+
+.search-price{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    position: relative;
+    left: 340px;
+}
+
+
+
+.trip-btn{
+    border: none;
+    background-color:transparent;
+    color:#cad5f5;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius:   20px;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+    right: 360px;
+
+    
+}
+
+.trip-btnactive{
+    border: none;
+    background-color:white;
+    color:rgb(0, 166, 255);
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+    right: 360px;
+
+
+}
+
+.trip-btn:hover {
+    background-color:white;
+    color:rgb(0, 166, 255);
+
+}
+
+.ticket{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 350px 350px 200px 350px ;
+    grid-template-rows: 89px 89px ;
+    box-shadow: 0 2px 6px;
+    border: 1px ;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+
+.ticket > div{
+    border-right: 1px solid rgb(243, 241, 241);
+    border-bottom: 1px solid rgb(243, 241, 241);
+    padding: px;
+}
+
+.ticket > div:hover{
+    background-color: #EAF4FF;
+    cursor: pointer;
+}
+
+
+.toptext{
+    color:grey;
+    position: relative;
+    left: 10px;
+    top: 15px;
+    font-size: small;
+    font-weight: normal;
+}
+
+.bigtext{
+    color:black;
+    position: relative;
+    left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.bigtextgrey{
+   
+    color:gray;
+    position: relative;
+    left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.bottomtext{
+    color:black;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    font-size: small;
+    font-weight: normal;
+}
+
+.date{
+    font-size: small;
+}
+
+.fa-calendar-days {
+    font-size: 20px;
+    color: #EAF4FE;
+    position: relative;
+    left: 30px;
+
+}
+
+.traveller{
+    font-size: small;
+}
+
+.eight{
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchbutton{
+
+    background-color: #f36f20;
+    color: rgb(254, 254, 254);
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 150px;
+
+}
+
+.addcity{
+    background-color: #ffffff;
+    color: rgb(22, 143, 203);
+    font-size: medium;
+    padding-bottom: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 20px;
+    border: solid;
+    border-radius: 25px;
+    cursor: pointer;
+     width: 150px;
+}
+
+.specialfares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    color: white;
+    width: 1070px;
+    position:relative;
+    left: 165px;
+    bottom: 55px;
+}
+
+.special-fares label {
+    margin: 0 12px;
+}
+
+.special-fares input[type="radio"] {
+    margin-right: 5px;
+}
+
+.offerssection{
+    padding: 20px;
+}
+
+.offerssection h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.offersnav{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.offersnav button{
+    border: none;
+    padding: 8px 16px;
+    background-color: transparent;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor:pointer
+}
+
+.offersnav button:focus{
+    background-color: #2196F3;
+    color: white;
+}
+
+.offersnav button:hover:not(:focus){
+    background-color:#EAF4FE;
+}
+
+.offeractive button{
+    background-color: #2196F3;
+    color: white;
+}
+
+.slider{
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+    overflow-x: auto;
+    scrollbar-width: 0;
+    scroll-behavior: smooth;
+    padding: 15px;
+    
+
+}
+
+.slider img{
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+
+.viewalloffers{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+
+}
+
+.viewalloffers button{
+    background-color: #2196F3;
+    color: white;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor:pointer;
+}
+.ai{
+    position: fixed;
+    right: 20px;
+    width: 95px;
+    height: 112px;
+    bottom: 20px;
+    animation-name: slideup;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slideup{
+from{transform: translateY(-50%);}
+}
+
+.fadebox1{
+    background: linear-gradient(to right,white, transparent);
+    width: 700px;
+    height: 300px;
+    position: fixed;
+    bottom: 250px;
+    
+
+
+}
+
+.fadebox2{
+
+    background: linear-gradient(to left,white, transparent);
+    width: 700px;
+    height: 300px;
+    position: fixed;
+    right: 0px;
+    bottom: 250px;
+    border: none;
+    border-radius: 20px;
+
+
+}
